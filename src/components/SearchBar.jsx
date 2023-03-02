@@ -12,7 +12,7 @@ function SearchBar({searchProducts}) {
     <nav className="navbar bg-light">
       <div className="container-fluid">
         <form className="d-flex" role="search">
-          <input className="form-control me-2" type="text" placeholder="Search products..."  value={search} onChange={searchHandler} />
+          <input className="form-control " type="text" placeholder="Search products..."  value={search} onChange={searchHandler} />
         </form>
       </div>
     </nav>
