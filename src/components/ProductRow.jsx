@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProductRow({ item }) {
+function ProductRow ({ item }) {
   return (
     <tr>
       <td>{item.name}</td>
