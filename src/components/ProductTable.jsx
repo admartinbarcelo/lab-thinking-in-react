@@ -3,7 +3,7 @@ import ProductRow from './ProductRow';
 function ProductTable({ products }) {
   return (
     <>
-      <table className="table table-striped table-hover w-50 mx-auto" style={{backgroundColor: '#e9f0fb'}}>
+      <table className="table table-striped table-hover w-50 mx-auto" style={{backgroundColor: '#fff'}}>
         <thead>
           <tr>
             <th scope="col">Name</th>
